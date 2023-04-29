@@ -25,4 +25,5 @@ Run script.
 ```
 
 While the script is running, it will ask you for VNC Server password.
+
 When the script is done, it will reboot the system automatically.
