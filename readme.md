@@ -1,4 +1,5 @@
-# This repo is for install Real VNC server automatically.
+# This repo is for install Real VNC server automatically on any linux.
+## I tested this script on x86_64 Lubuntu System.
 
 ## Usage
 This script has to run with root user.
