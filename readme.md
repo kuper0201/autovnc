@@ -8,7 +8,7 @@ First, make your own password for root user.
 sudo passwd root
 ```
 
-Now download the script and chmod.
+Now download the script and grant execute permission with chmod.
 ```
 wget https://raw.githubusercontents.com/kuper0201/autovnc/main/autovnc.sh
 chmod +x autovnc.sh
