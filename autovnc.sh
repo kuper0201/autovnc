@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Check Root Permission
+if [ $EUID -ne 0 ]
+then
+  echo "please run as root"
+  exit
+fi
+
 cd /tmp
 
 # Download VNC Install Script
