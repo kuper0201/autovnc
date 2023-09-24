@@ -1,11 +1,7 @@
 #!/bin/bash
 
 # Check Root Permission
-if [ $EUID -ne 0 ]
-then
-  echo "please run as root"
-  exit
-fi
+if [ $(id -u) -ne 0 ]; then exec sudo bash "$0" "$@"; exit; fi
 
 cd /tmp
 
