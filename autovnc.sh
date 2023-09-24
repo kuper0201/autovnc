@@ -12,7 +12,6 @@ wget https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.6.0-Linu
 mv VNC-Server-7.6.0-Linux-x64-ANY.tar.gz vnc.tar.gz
 tar -xvf vnc.tar.gz
 
-pwd
 # Install VNC
 cd VNC-Server-7.6.0-Linux-x64
 chmod +x vncinstall
@@ -29,5 +28,4 @@ rm -rf /tmp/vnc.tar.gz
 rm -rf /tmp/VNC-Server-7.6.0-Linux-x64
 
 # Reboot
-echo "Rebooting System..."
-reboot
+echo "Reboot the System now"
