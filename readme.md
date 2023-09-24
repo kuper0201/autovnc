@@ -2,7 +2,7 @@
 ## I tested this script on x86_64 Lubuntu System.
 
 ## Usage
-This script has to run with root user.
+This script will execute automatically with root user.
 
 First, download the script and grant execute permission with chmod.
 ```
