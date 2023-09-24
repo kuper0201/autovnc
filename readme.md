@@ -3,28 +3,18 @@
 
 ## Usage
 This script has to run with root user.
-First, make your own password for root user.
 
-```
-sudo passwd root
-```
-
-Now download the script and grant execute permission with chmod.
+First, download the script and grant execute permission with chmod.
 ```
 wget https://raw.githubusercontents.com/kuper0201/autovnc/main/autovnc.sh
 chmod +x autovnc.sh
 ```
 
-Enter root user.
-```
-su
-```
-
-Run script.
+Now, execute the script.
 ```
 ./autovnc.sh
 ```
 
 While the script is running, it will ask you for VNC Server password.
 
-When the script is done, it will reboot the system automatically.
+When the script is done, you have to reboot your system.
