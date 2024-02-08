@@ -5,8 +5,8 @@ if [ $(id -u) -ne 0 ]; then exec sudo bash "$0" "$@"; exit; fi
 
 cd /tmp
 
-# Download VNC Install Script(Latest version of 2024/01/03)
-wget https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.8.0-Linux-x64-ANY.tar.gz
+# Download VNC Install Script(Latest version of 2024/02/08)
+wget https://downloads.realvnc.com/download/file/vnc.files/VNC-Server-7.9.0-Linux-x64-ANY.tar.gz
 
 # Extract VNC Script
 mv VNC-Server-7.8.0-Linux-x64-ANY.tar.gz vnc.tar.gz
